@@ -1,24 +1,1244 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iAm-p0-8N7">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Didot.ttc">
+            <string>Didot-Italic</string>
+        </array>
+        <array key="Palatino.ttc">
+            <string>Palatino-BoldItalic</string>
+        </array>
+        <array key="TimesNewRoman.ttf">
+            <string>TimesNewRomanPSMT</string>
+        </array>
+        <array key="TrebuchetMSBoldItalic.ttf">
+            <string>Trebuchet-BoldItalic</string>
+        </array>
+        <array key="Zapfino.ttf">
+            <string>Zapfino</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--巴洛克時期-->
+        <scene sceneID="Ue3-5e-bsU">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="af1-O7-WK6" userLabel="巴洛克時期" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IFX-No-oOQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.84999999999999998" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvG-Ux-fag">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Baroque" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ETM-ec-vgP">
+                                <rect key="frame" x="0.0" y="108" width="414" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x49-vZ-XfW">
+                                <rect key="frame" x="0.0" y="403" width="414" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">       巴洛克的鍵盤樂器以大鍵琴為主，複音音樂與對位結構是主要型態，講求裝飾奏與即興演奏的技巧。這時期位大鍵琴及古鋼琴等鍵盤樂器譜寫的音樂，大多是以組曲的形式出現，包含一些個別的舞曲，速度和拍子各有變化，但調性始終是統一的。其他鍵盤音樂形式尚有：主題與變奏、帕薩卡牙舞曲、夏康舞曲、創意曲、賦格曲、前奏曲、聖詠前奏曲、主題模仿曲、幻想曲、觸技曲及協奏曲。
+</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="巴洛克時期 (Baroque西元 1600~1750年)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xj-nj-Oo2">
+                                <rect key="frame" x="35" y="364" width="345" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HdI-os-zWO"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="巴洛克時期" id="czS-NG-VVt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XFM-m2-bHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="987" y="-383"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Yjg-jH-Ocd">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="1mx-Lp-cxX" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" keyboardDismissMode="interactive" dataMode="static" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="GKS-6C-ozd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexTrackingBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="巴洛克" id="gbW-dK-YXi">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" focusStyle="custom" textLabel="h0X-QI-sd4" style="IBUITableViewCellStyleDefault" id="jgy-6S-cz7">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jgy-6S-cz7" id="tiN-P3-Qmt">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="巴  赫 Johann Sebastian Bach " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h0X-QI-sd4">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="gom-fG-cyn" kind="show" id="YYW-as-4l6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" editingAccessoryType="disclosureIndicator" textLabel="7RA-e3-BmI" style="IBUITableViewCellStyleDefault" id="u6h-35-HEb">
+                                        <rect key="frame" x="0.0" y="108" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="u6h-35-HEb" id="OZA-RA-muC">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="韋瓦第 Antonio Vivaldi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7RA-e3-BmI">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="rei-Um-A2c" kind="show" id="45M-Dm-NPB"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="n4n-wB-1Hb" style="IBUITableViewCellStyleDefault" id="1nc-fp-oLh">
+                                        <rect key="frame" x="0.0" y="188" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1nc-fp-oLh" id="n1b-WV-UNT">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="韓德爾 Georage Friberic Handel " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n4n-wB-1Hb">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="Cp0-mL-GsY" kind="show" id="wFN-uw-83M"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="古典" id="lgH-ff-O0n">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" focusStyle="custom" textLabel="PgD-qZ-QO9" style="IBUITableViewCellStyleDefault" id="UPd-3U-Bdc">
+                                        <rect key="frame" x="0.0" y="296" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UPd-3U-Bdc" id="OqG-0v-P0P">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="海 頓 Franz Joseph Haydn" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="PgD-qZ-QO9">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="OVB-bx-ygU" kind="show" id="ySI-Vw-WWv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" editingAccessoryType="disclosureIndicator" textLabel="ybK-01-qbb" style="IBUITableViewCellStyleDefault" id="zGy-ij-5Op">
+                                        <rect key="frame" x="0.0" y="376" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zGy-ij-5Op" id="D9z-rY-7qj">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="莫札特 Wolfgang Amadeus Mozart" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ybK-01-qbb">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="3aB-KT-naU" kind="show" id="pNK-lw-qPA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="5nL-GI-XaQ" style="IBUITableViewCellStyleDefault" id="gZT-HB-pWT">
+                                        <rect key="frame" x="0.0" y="456" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gZT-HB-pWT" id="iFB-fW-whT">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="貝多芬 Ludwig van Beethoven" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5nL-GI-XaQ">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="oIO-zb-U3l" kind="show" id="aga-v0-OA0"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="浪漫" id="NQZ-J3-1ba">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" focusStyle="custom" textLabel="1hH-ap-jAw" style="IBUITableViewCellStyleDefault" id="Kmt-vv-6m7">
+                                        <rect key="frame" x="0.0" y="564" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kmt-vv-6m7" id="YVC-J3-56e">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="舒伯特 Franz Schubert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1hH-ap-jAw">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="U2R-Eq-zbc" kind="show" id="Npq-Nr-zBS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="mCq-gM-f0d" style="IBUITableViewCellStyleDefault" id="DrP-nA-zaM">
+                                        <rect key="frame" x="0.0" y="644" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DrP-nA-zaM" id="HBV-cJ-3iN">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="蕭  邦 Frederic Chopin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mCq-gM-f0d">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="GpM-Gg-qSe" kind="show" id="5Ms-WO-d9D"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="gQa-7C-fIx" style="IBUITableViewCellStyleDefault" id="wo2-LO-jBy">
+                                        <rect key="frame" x="0.0" y="724" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wo2-LO-jBy" id="2AJ-JU-bdc">
+                                            <rect key="frame" x="0.0" y="0.0" width="376" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="李斯特 Franz Liszt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gQa-7C-fIx">
+                                                    <rect key="frame" x="15" y="0.0" width="361" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="byn-AV-pbc" kind="show" id="qiS-1Q-7iL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="當代" id="vuq-xT-ZdT">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" focusStyle="custom" textLabel="qNN-XB-79X" style="IBUITableViewCellStyleDefault" id="ZmA-Jm-8Qn">
+                                        <rect key="frame" x="0.0" y="832" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZmA-Jm-8Qn" id="WTQ-oh-CIX">
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="德布西 Claude Debussy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qNN-XB-79X">
+                                                    <rect key="frame" x="15" y="0.0" width="364" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <segue destination="n1V-SU-hIF" kind="show" id="8wQ-ua-TEw"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" editingAccessoryType="disclosureIndicator" textLabel="wFw-pJ-tkL" style="IBUITableViewCellStyleDefault" id="epN-8y-CVH">
+                                        <rect key="frame" x="0.0" y="912" width="414" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="epN-8y-CVH" id="7Pd-NX-GZj">
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="79.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="拉赫曼尼諾夫 Sergei Rachmaninoff" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wFw-pJ-tkL">
+                                                    <rect key="frame" x="15" y="0.0" width="364" height="79.666666666666671"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="Didot-Italic" family="Didot" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="8ah-6g-pIo" kind="show" id="EDS-TR-W1i"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="1mx-Lp-cxX" id="fiS-sz-ouy"/>
+                            <outlet property="delegate" destination="1mx-Lp-cxX" id="Kjf-WW-NQk"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="ImU-F2-9mc"/>
+                    <refreshControl key="refreshControl" opaque="NO" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Zf5-Zu-uBc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </refreshControl>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ex-2t-Vvm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6030.434782608696" y="-1188.5869565217392"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ua7-zX-jgC">
+            <objects>
+                <viewController id="gom-fG-cyn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3d4-Wa-FwL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="RFE-NL-oA4">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="巴洛克-巴哈" translatesAutoresizingMaskIntoConstraints="NO" id="9bI-0c-ghC">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="巴  赫 Johann Sebastian Bach (德國 1685~1750)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GET-D1-vfT">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cI5-I5-9Tr">
+                                <rect key="frame" x="20" y="283" width="366" height="358"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">被稱為音樂之父，出身於音樂世家，年輕時就學會絃樂器、管風琴、古鋼琴等，順利成為職業演奏家。1708-1717 年間，巴哈擔任宮廷風琴師並做了許多管風琴曲，此後又有大量的奏鳴曲、協奏曲、弦樂組曲、清唱劇等作品。巴哈的十二平均律鋼琴曲已成為全世界接受西方音樂的重要教材，綜觀巴赫所有的創作，除了歌劇外，幾乎所有的音樂形式的作品他都曾涉獵。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1D-3N-bAs">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="I9v-oX-3oQ"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GFX-xj-Z5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="4498.5507246376819" y="-421.46739130434787"/>
+        </scene>
+        <!--古典時期-->
+        <scene sceneID="HjT-lO-tgb">
+            <objects>
+                <viewController id="tgz-Wq-nlY" userLabel="古典時期" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yOw-vy-Kve">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="bM9-v6-0Ji">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Classical" translatesAutoresizingMaskIntoConstraints="NO" id="7S8-I1-s4b">
+                                <rect key="frame" x="0.0" y="108" width="414" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HTJ-e7-3do">
+                                <rect key="frame" x="0.0" y="403" width="414" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">       古典時期式音樂史上最豐收的時期，這時期受傳統的嚴格形式所支配，在形式上表現出統一、均衡、明晰與規律，不強調個性和情感，也不強調民族性，其明朗、優雅的音律是一種循規蹈矩的美。
+       舞曲形式的作品再古典時期仍極風行，但此時期擴展的形式如奏鳴曲式、圓舞曲和輪旋曲亦紛紛出現，奏鳴曲和小奏鳴曲的第一樂章通常是用奏鳴曲式作成，奏明曲式可分為呈示部、發展部和再現部。</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="古典時期 (Classical西元 1750~1820年)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gat-Ri-g8A">
+                                <rect key="frame" x="35" y="364" width="345" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="kkd-xQ-mxu"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="古典時期" id="vO8-lg-qdH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QaG-SN-NmN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1755" y="-383"/>
+        </scene>
+        <!--浪漫時期-->
+        <scene sceneID="fvA-dR-t3I">
+            <objects>
+                <viewController id="Jfj-c7-Rf5" userLabel="浪漫時期" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kdr-aP-p4o">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="vpQ-U6-kLC">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Romantic" translatesAutoresizingMaskIntoConstraints="NO" id="qSF-jY-Dz5">
+                                <rect key="frame" x="0.0" y="108" width="414" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Dkc-X8-d1V">
+                                <rect key="frame" x="0.0" y="403" width="414" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">      在浪漫時期中，圓舞曲、即興曲、敘事曲、浪漫曲、夜曲......等都不斷的大量出現，在這段時期中，音樂的新形式紛紛出現，國民歌謠音樂如波蘭作曲家蕭邦所作波蘭舞曲、馬厝卡舞曲及匈牙利作曲家李斯特所作匈牙利狂想曲，亦多可見。浪漫派音樂的最大特徵是音樂與文學的密切關聯，如標題音樂中的“ 交響詩 “，舒曼的“歌曲”，華格納的”樂劇 ”，孟德爾頌的”無言歌 ”等，都與文學結下不解之緣，而浪漫時期的音樂常常包含了熱情的，充滿個性的旋律，以及和聲的色彩。音樂中的色彩也藉著鋼琴的改進而大為強化。
+</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="浪漫時期 (Romantic西元 1820~1900年)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CKh-fO-P4W">
+                                <rect key="frame" x="35" y="364" width="345" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8ph-UU-Jvu"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="浪漫時期" id="Gp3-3Z-LIZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WAu-98-CHB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2454" y="-383"/>
+        </scene>
+        <!--當代時期-->
+        <scene sceneID="snU-bC-cnz">
+            <objects>
+                <viewController id="FGb-w4-1d3" userLabel="當代時期" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xUh-az-c1D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="DKZ-Jz-JdM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Contemporary" translatesAutoresizingMaskIntoConstraints="NO" id="tXA-kd-n3Q">
+                                <rect key="frame" x="0.0" y="108" width="414" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4DJ-qy-Yus">
+                                <rect key="frame" x="0.0" y="403" width="414" height="203"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">   二十世紀的作曲家致力於譜創新聲、追尋新觀念。這是音樂上的實驗時期，在和聲、調性、音色、曲式、觸鍵上都作多方面的嘗試與創新。
+
+</string>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="當代時期 (Contemporary西元1900~今年)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2bu-g5-BRu">
+                                <rect key="frame" x="35" y="364" width="345" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Trebuchet-BoldItalic" family="Trebuchet MS" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h0v-eX-0cK"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="當代時期" id="g6E-PJ-yfc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ymd-nS-HON" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3159" y="-383"/>
+        </scene>
+        <!--古典音樂進化史-->
+        <scene sceneID="xUm-86-B0h">
+            <objects>
+                <viewController id="fVD-lx-c4a" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wX9-ee-SYX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 3" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xwD-3A-8ma">
+                                <rect key="frame" x="1" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boU-Ju-90B">
+                                <rect key="frame" x="81" y="375" width="158" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="28"/>
+                                <state key="normal" title="Baroque">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="af1-O7-WK6" kind="show" id="Lqd-rk-oTG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5g4-fT-g9H">
+                                <rect key="frame" x="174" y="445" width="185" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="28"/>
+                                <state key="normal" title="Classical">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tgz-Wq-nlY" kind="show" id="79y-tG-yLn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpM-Ne-xH4">
+                                <rect key="frame" x="81" y="516" width="158" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="28"/>
+                                <state key="normal" title="Romantic">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Jfj-c7-Rf5" kind="show" id="7sS-wH-pRu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UI7-Vb-1TW">
+                                <rect key="frame" x="80" y="266" width="257" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="古典音樂進化史">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="30" name="PingFangTC-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9hd-wJ-Shk">
+                                <rect key="frame" x="114" y="597" width="245" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="28"/>
+                                <state key="normal" title="Contemporary">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FGb-w4-1d3" kind="show" id="YBo-Y6-L7X"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lT5-rl-fEb"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="古典音樂進化史" id="864-gY-NQU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVl-K4-euG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2051" y="-1286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="27s-Uo-Yei">
+            <objects>
+                <viewController id="rei-Um-A2c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IrP-kf-jr0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="eLg-wq-5nu">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="巴洛克-韋瓦第" translatesAutoresizingMaskIntoConstraints="NO" id="yyi-fk-UXS">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="韋瓦第 Antonio Vivaldi (義大利 1678~1741)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MPX-CM-eLi">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="np9-DD-gHT">
+                                <rect key="frame" x="20" y="283" width="366" height="358"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">韋瓦第是和巴哈同時期的音樂家，他既是小提琴教授、音樂指揮，也是作曲家；由於他是「大協奏曲」、「小提琴協奏曲」曲式的完成者，連巴哈、韓德爾都繼承他的曲式而奠定巴洛克協奏曲的樣式，故被尊稱為「協奏曲之父」；目前為止，他的協奏曲被發現的就有四百五十首之多，可謂驚人。「四季」包含春、夏、秋、冬四首協奏曲，每首都有標題並附詩文；結構上皆由快板、慢板與快板三個樂章構成，樂曲精彩充實，洋溢美麗的詩情話意。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHA-Xd-eMY">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lGz-jn-v84"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4x-Vo-C0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5116" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ecv-qs-cOK">
+            <objects>
+                <viewController id="Cp0-mL-GsY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5eT-g4-ZZS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="pRM-WU-aYO">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="巴洛克-韓德爾" translatesAutoresizingMaskIntoConstraints="NO" id="x5Q-Lo-Zxh">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="韓德爾 Georage Friberic Handel (德國 1685~1759)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3NU-1i-zH5">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MeS-hS-kV3">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">和巴哈同年出生，從小便顯露出音樂的才華，但是他父親卻認為音樂是最低級的職業，從小便禁止他學習音樂，想依照自己的意思把小韓德爾培養成律師。可是當年幼的小韓德爾在一個偶然的機會發現閣樓有架古鋼琴後，便不顧父親的反對每天深夜偷偷溜到閣樓去練習。
+1790年底他在威尼斯發表了他的首部義大利歌劇「Agrippina」之後，大獲成功，1717年他譜寫有名的「水上音樂」(Water Music)，這首曲子深受當時喬治一世的喜愛。劇，1741年他只花了24天便譜出神劇「彌賽亞」(Missiah)。在愛爾蘭首都都柏林首演，大受好評。1749年為了慶祝和平而作的「煙火音樂」(Music for theRoyal Fireworks)是他晚年的傑作。
+韓德爾因眼疾，於1759年4月14日去世，享年74歲。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcN-8b-kBc">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zu1-hX-ndo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tOc-2W-c3H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5724.6376811594209" y="-421.46739130434787"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DX5-VA-GJ8">
+            <objects>
+                <viewController id="OVB-bx-ygU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gug-2q-YWC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="kea-yM-iDM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="古典-海頓" translatesAutoresizingMaskIntoConstraints="NO" id="QPf-JV-mQt">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="海 頓 Franz Joseph Haydn (奧地利 1732~1809)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PKB-4D-VHA">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LcM-vi-k8o">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">出生於維也納附近的鄉間， 一生中多半待在波希米亞的艾斯特哈濟家族中， 他的大半作品是為這個富有的家族所寫。 海頓是一位相當多產的作曲家， 所寫的作品幾乎涵蓋所有的音樂型式， 從聲樂到器樂、 聖樂到世俗音樂， 無所不包，其對同時代或後代的作曲家影響深遠。他一生共寫了 104 首交響曲和 83 首弦樂四重奏， 證明他是一位始終能在主題、 型式和配器手法上不斷創新的作曲家。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jv9-qx-2Ff">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vRj-Ku-z1u"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UWS-Up-qrL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6338" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Frf-Ny-QQG">
+            <objects>
+                <viewController id="3aB-KT-naU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CJt-2v-AGV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="ufF-6K-Lmf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="古典-莫札特" translatesAutoresizingMaskIntoConstraints="NO" id="tfz-Vu-oCa">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="莫札特 Wolfgang Amadeus Mozart (奧地利 1756~1791)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZL9-Um-sJi">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="K6A-IE-9QZ">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">1756年1月27日出生於奧地利薩爾茲堡(Salzburg, Austria)，在1791年12月5日去世於維也納，享年只有短短的34歲。他出身在音樂世家、歐洲文化重鎮，素有「音樂神童」之稱。六歲即完成他的第一首小步舞曲，第一首交響曲在九歲完成，十一歲完成第一部神劇，十二歲完成第一部歌劇，一生作曲數量多達六百多首。由於少年時四處旅行，使他得以接觸歐洲各地不同音樂風格，加上個人的強烈吸收能力，將多元風格熔於一爐，成為莫札特本人特有風格。雖然他只活這樣短的生命，但是卻為這個紛擾世界留下了許多純真而美麗的音樂作品。今年是莫札特誕生250週年，對於這位音樂神童，世界各地都舉行有許多的紀念活動</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chQ-wa-q0m">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jiV-Wz-Uah"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjf-va-gQS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6946" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L5U-cc-Sia">
+            <objects>
+                <viewController id="oIO-zb-U3l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pqd-lh-1Eg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="kCt-F8-YK8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="古典-貝多芬" translatesAutoresizingMaskIntoConstraints="NO" id="exK-qw-Odn">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="貝多芬 Ludwig van Beethoven (德國 1770~1827)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3ZG-xP-DJm">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wjQ-qM-RVv">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">貝多芬為祖籍佛蘭德的德國作曲家，是最富於獨創精神的 作曲家，1770年12月16日生於波昂，1827年3月26日 逝於維也納。從小酗酒的父親常強逼迫他長時間地練習 鍵盤樂器，希望他成為莫札特式的神童。 1795年於維也納首次以作曲家及鋼琴家身分登台， 演奏《降B大調鋼琴協奏曲》op.19。 1802年貝多芬已意識到耳聾已無法醫治，寫了哀感動人的 "海利根斯塔特遺囑"，打算自殺；然而此時他卻創作出 最明朗的交響曲作品《D大調第二交響曲》。 1804年在他同疾苦不斷抗爭的過程中，創作出《英雄交響曲》。 1819年他完全失聰。在一生的最後階段，他創造一些最偉大且 富於思想性的作品，包括了五首弦樂四重奏、五首鋼琴奏鳴曲、 第九交響曲和《莊嚴彌撒曲》，這些作品超脫了個人生活的 痛苦而進入藝術的未來境界，也影響了後來的作曲家。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GR0-CB-WUB">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="jDV-E7-x5A"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gxo-aJ-o8F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7552" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eqh-Xh-Ico">
+            <objects>
+                <viewController id="U2R-Eq-zbc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jtg-IT-ihG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="Cf2-RE-mW8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪漫-舒伯特" translatesAutoresizingMaskIntoConstraints="NO" id="Xvm-4C-eiP">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="舒伯特 Franz Schubert (奧地利 1797~1828)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EQ0-dp-A8z">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pWH-6H-uQd">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">1797年1月31日出生在維也納，他小就學習鋼琴及小提琴， 十一歲進入皇家學院(Imperial College, Konvikt)攻讀音樂並擔任合唱團 的高音部隊員，一直到他十六歲因變聲不能再演唱童聲高音才離開 。同時他在他父親的學校裡擔任助教師，此期間他 創作了不少傑作，包括F大調彌撒曲、魔王、野玫瑰…等。他 喜歡隨興的生活，對於社會地位、貴族生活全不感興趣。只要一 拿到錢，他便呼朋引伴到咖啡廳取樂，等錢花光了，那些難兄難弟再 接濟他。在這種波希米亞式的生活中，他有時甚至將樂曲譜寫在帳單 的背面，但他的靈感就如同泉水一般地湧出。1828年，他去世於維也納，享年才三十一歲。在他短暫的人生中，他作品的總數達一千兩百多首，而約有六百五十首是歌曲，因此他便被譽為「歌曲之王」。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fRi-8b-hlK">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="uf8-eE-uJf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="khP-vF-E62" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8162" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yWO-O7-0ui">
+            <objects>
+                <viewController id="GpM-Gg-qSe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vTQ-9q-77T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="LZG-QI-GMw">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪漫-蕭邦" translatesAutoresizingMaskIntoConstraints="NO" id="i8A-QM-Gdy">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="蕭  邦 Frederic Chopin (波蘭 1810~1948)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dgy-PS-DdS">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QGR-QQ-Dji">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">蕭邦，不但是個傑出的鋼琴家也是一個鋼琴作曲家，為我們留下許多優美好聽的曲子，因此被稱為「鋼琴詩人」。他七歲時就已經在音樂會中嶄露頭角，十歲開始作曲，二十歲時他離開波蘭到德國、奧國、法國演奏。在他旅行途中，波蘭革命失敗，俄國人佔領波蘭，他就再也沒有回去，所以我們可以從他的作品中聽到他的思鄉之情。
+1836年因李斯特的介紹，認識了女作家喬治‧桑，且很快就陷入情網，兩年後(1838年)他們倆一起到西班牙的馬約卡島渡假養病，此時的蕭邦已經患有肺病。這段時間，他作出「雨滴」前奏曲及「A大調軍隊波蘭舞曲」，1849年，他39歲時，死於肺病。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfv-cu-KFs">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bln-0m-KEQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jEx-at-z2B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8770" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EEB-IA-Xa2">
+            <objects>
+                <viewController id="byn-AV-pbc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vcj-t4-fLU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="ULN-Sh-DwT">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="浪漫-李斯特" translatesAutoresizingMaskIntoConstraints="NO" id="c4a-1J-cdp">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="李斯特 Franz Liszt (匈牙利 1811~1886)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uOc-pN-Dlg">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mzn-3o-M4P">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">李斯特生前曾是歐洲最偉大的鋼琴演奏家，經常奔波在歐洲各地演出，堅定地支持蕭邦、白遼士和華格納，他積極探索鋼琴的演奏技巧，充分靈活地運用轉調手法和音色變化的技巧，並推動了管弦樂隊的改革，他的演奏往往是即興的，是一種創造性的演奏，有時就是現場創作，因此相當吸引觀眾。他一生創作了700多首音樂作品，並創造了交響詩這一音樂形式。他的主要音樂作品有吉普賽風格的《匈牙利狂想曲》《浮士德交響曲》，《但丁交響曲》，《帕格尼尼練習曲》等。有人認為他的作品技巧輝煌，內容膚淺，但他不愧是位偉大的音樂革新家，並在歷史上對改善音樂家地位，推動新生音樂風格起到相當大的作用。他最著名的貢獻包括發明了交響詩這一體裁。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOr-zi-kWg">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3aU-1t-H6v"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E2f-sD-R0x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9372" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CKJ-3D-nfJ">
+            <objects>
+                <viewController id="n1V-SU-hIF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OG0-nH-mnA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="F7W-cZ-4G1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="當代-德布西" translatesAutoresizingMaskIntoConstraints="NO" id="dm7-kV-r4z">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="德布西 Claude Debussy (法國 1862~1918)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Q7D-Ms-j1i">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rpV-xH-iix">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">德布西--法國印象樂派的奠定者，九歲時開始學習鋼琴，1873年進入巴黎音樂院，專攻鋼琴與作曲，在巴黎音樂院的學業持續十二年。德布西原先希望能夠成為一名職業演奏家，但在十七歲時因為未獲鋼琴獎，德布西漸漸放棄成為演奏家的夢。次年進入作曲系，漸漸地朝改往作曲發展。
+德布西轉向作曲發展後，就很少以演奏家的身份在公眾面前露面。他有時候會與一些音樂家交往，不過他比較喜歡與印象派的詩人、畫家接觸。德布西最喜歡印象派畫家莫內的畫風，並將這種畫派的風格轉為音樂創作的一種手法，以豐富的、變幻的，甚至是難以捕捉的和聲和樂器音色，創造出一種特殊的氣氛，這成為德布西作品的主要特色，《牧神的午後》、《夜曲》、《大海》是他的代表作。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHi-oX-RfH">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="xKV-fB-DVS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hDB-CH-cjf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9981" y="-421"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="V0l-Yz-WVQ">
+            <objects>
+                <viewController id="8ah-6g-pIo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QAc-VZ-6Ur">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background 2" translatesAutoresizingMaskIntoConstraints="NO" id="WDs-Ym-267">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="當代-拉赫曼尼諾夫" translatesAutoresizingMaskIntoConstraints="NO" id="mSR-kW-ug1">
+                                <rect key="frame" x="20" y="127" width="133" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="拉赫曼尼諾夫 Sergei Rachmaninoff (俄國 1873~1943)" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4Wk-pR-DeZ">
+                                <rect key="frame" x="161" y="114" width="240" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="honorifix-prefix"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i9e-Uk-kai">
+                                <rect key="frame" x="20" y="283" width="366" height="400"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">俄國作曲家拉赫曼尼諾夫是位天生的鋼琴家。他高大的身軀、纖長的手指，佔盡了演奏鋼琴的優勢，能輕易彈奏12度音，因此他的作品亦以鋼琴曲最為人稱道，但並非所有鋼琴家都能駕馭他的作品，其中第三號鋼琴協奏曲更被譽為史上最困難的鋼琴作品。 作曲是拉赫曼尼諾夫一生的職志，他曾因第一號交響曲問世失利而陷入三年嚴重低潮，後來藉著心理治療完成第二號鋼琴協奏曲，奠定了作曲家的地位。但當1917年俄國十月革命陷入動亂，拉赫曼尼諾夫離鄉最終落腳美國，很務實地以鋼琴演奏維生，高超的琴藝也讓他在作曲家身份外，成為首屈一指的鋼琴演奏大師。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHE-HH-S3W">
+                                <rect key="frame" x="20" y="259" width="42" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hl1-hy-3fA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IHu-Zh-rkD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10590" y="-421"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jh9-lC-bYY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lus-gA-0I0" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="G6K-uH-BCw">
+                        <color key="badgeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pYV-cr-AaM">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1mx-Lp-cxX" kind="relationship" relationship="rootViewController" id="jSb-G0-wSv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KYe-si-foR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6031.884057971015" y="-2018.4782608695655"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="dHJ-en-Z3f">
+            <objects>
+                <viewController title="Home" id="8jp-Eg-77N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a2t-cK-w0y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Home 1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KVf-bJ-Fba">
+                                <rect key="frame" x="1" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hv7-fm-XT2">
+                                <rect key="frame" x="63" y="186" width="255" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="24"/>
+                                <state key="normal" title="Music History">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fVD-lx-c4a" kind="show" id="m4E-ze-Xes"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="svJ-3C-8H4">
+                                <rect key="frame" x="63" y="303" width="255" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="24"/>
+                                <state key="normal" title="Musiciams">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1mx-Lp-cxX" kind="show" id="vKm-cV-hIe"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9Uv-iS-bIK"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="862-AK-Ln8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MG0-D9-fxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3320" y="-1285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Aba-a5-XTs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XwR-gL-Hs1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="sBk-CF-iAX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JLg-iI-kgb">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8jp-Eg-77N" kind="relationship" relationship="rootViewController" id="Bus-3e-hdV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qgx-fn-isb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3320.289855072464" y="-2018.4782608695655"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ZId-Ml-pkP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G3i-Fo-EB6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="history" id="MwH-DE-XAO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="F3l-kS-oVH">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="fVD-lx-c4a" kind="relationship" relationship="rootViewController" id="ahQ-gW-J6Z"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3Y-p9-K7a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2051" y="-2018"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EHb-8P-Ssp">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iAm-p0-8N7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="l6t-LG-k4c">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XwR-gL-Hs1" kind="relationship" relationship="viewControllers" id="cJe-zf-HlM"/>
+                        <segue destination="lus-gA-0I0" kind="relationship" relationship="viewControllers" id="FGA-51-hiW"/>
+                        <segue destination="G3i-Fo-EB6" kind="relationship" relationship="viewControllers" id="YZD-hU-Fxd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DJT-49-1lX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4087" y="-2903"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Baroque" width="298" height="238"/>
+        <image name="Classical" width="1096" height="742"/>
+        <image name="Contemporary" width="1012" height="722"/>
+        <image name="Home 1" width="1264" height="706"/>
+        <image name="Romantic" width="886" height="544"/>
+        <image name="background" width="1437" height="1101"/>
+        <image name="background 2" width="726" height="722"/>
+        <image name="background 3" width="748" height="736"/>
+        <image name="古典-海頓" width="446" height="576"/>
+        <image name="古典-莫札特" width="378" height="498"/>
+        <image name="古典-貝多芬" width="468" height="598"/>
+        <image name="巴洛克-巴哈" width="600" height="730"/>
+        <image name="巴洛克-韋瓦第" width="566" height="718"/>
+        <image name="巴洛克-韓德爾" width="684" height="740"/>
+        <image name="浪漫-李斯特" width="418" height="432"/>
+        <image name="浪漫-舒伯特" width="478" height="576"/>
+        <image name="浪漫-蕭邦" width="490" height="610"/>
+        <image name="當代-德布西" width="382" height="526"/>
+        <image name="當代-拉赫曼尼諾夫" width="240" height="240"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="m4E-ze-Xes"/>
+        <segue reference="jSb-G0-wSv"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
